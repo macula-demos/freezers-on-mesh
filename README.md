@@ -1,4 +1,4 @@
-# operational-technology
+# freezers-on-mesh
 
 A lab that shows why an internet-reachable OT controller is a bad idea, and how a Macula
 gateway removes the inbound path without changing the controller.

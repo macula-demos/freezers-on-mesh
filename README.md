@@ -242,6 +242,18 @@ but the legacy `admin/admin` path remains until the port forward and the firmwar
 retired. The operator allowlist and command guard are lab-grade, not a production identity system.
 See [docs/WHAT_THIS_PROVES.md](docs/WHAT_THIS_PROVES.md) for the full boundary list.
 
+## The series
+
+This is part 1 of the macula-demos OT series:
+
+| # | Repo | One claim |
+|---|------|-----------|
+| 1 | **freezers-on-mesh** | A retrofit removes the inbound path and moves authority to the mesh |
+| 2 | [warehouses-on-mesh](https://github.com/macula-demos/warehouses-on-mesh) | Federation: sealed cross-site calls with no inbound ports anywhere |
+| 3 | [pumps-on-mesh](https://github.com/macula-demos/pumps-on-mesh) | The same gateway pattern behind a real Modbus TCP controller |
+| 4 | [verifiable-coldchain](https://github.com/macula-demos/verifiable-coldchain) | Signed reading history an auditor verifies without Macula |
+| 5 | [two-person-rule](https://github.com/macula-demos/two-person-rule) | Dual control with dynamic enrollment and revocation |
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
